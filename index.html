@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <header>
+      <div class="pres-container">
+        <div class="prestext">
+          <h1>
+            Emilou <br />
+            Richelme
+          </h1>
+          <h3 class="underline--magical">
+            Etudiante en première année BUT MMI
+          </h3>
+        </div>
+        <div class="navbar-container">
+          <div class="presimage">
+            <img
+              src="./photo-profil.jpg"
+              alt="Photo de profil avec un effet néon"
+            />
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="#texte">A propos de moi</a></li>
+            <li><a href="#mes-travaux">Mes travaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="fleche-vers-le-bas">
+        <a href="#texte">
+          <img src="./fleche-vers-le-bas.png" alt="fleche vers le bas" />
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <div id="texte">
+        Passionée d’audiovisuel, j’ai décidé de m’orienter vers le BUT MMI pour
+        confirmer mon désir de travailler dans ce milieu professionnel. A défaut
+        d’avoir été retenue la premiere année de mon post-bac, je l’ai effectué
+        dans le BTS SIO Option Slam du Lycée Bonaparte à Toulon. Les métiers de
+        la programmation étant trop théoriques pour moi, je me suis réorientée
+        et ai finalement été acceptée dans le BUT MMI de Corte.
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <h2>Ma scolarité :</h2>
+          <ul>
+            <li><p>Septembre 2021 : Premiere Année BUT MMI</p></li>
+            <li>
+              <p>
+                Septembre 2020 : Premiere Année en BTS SIO option Solutions
+                Logicielles et Applications Métier
+              </p>
+            </li>
+            <li>
+              <p>
+                Aout 2019 : Obtention du baccauléat Sciences Économiques et
+                Sociales spécialité Mathématiques approfondies Mention Assez
+                bien
+              </p>
+            </li>
+            <li>
+              <p>
+                Septembre 2018 : Première Sciences Économiques et Sociales
+                option Informatique et Création Numérique
+              </p>
+            </li>
+            <li>
+              <p>
+                Aout 2017 : Obtention du Brevet - Série Générale section
+                européenne Anglais Mention Assez bien
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Mes expériences :</h2>
+          <ul>
+            <li>
+              <p>
+                CDD AGENT DE LA RELATION CLIENT SNCF <br />
+                Prescription des applications SNCF Accueil et vente de billet
+                <br />
+                Renfort aide au départ et installation client <br />
+                1 Juillet 2021 - 30 aout 2021
+              </p>
+            </li>
+            <li>
+              <p>
+                MISSION HUMANITAIRE<br />
+                Réhabilitation de l’école de Sapa <br />
+                Distribution de fournitures scolaires aux élèves <br />
+                Collecte des déchets <br />
+                17 Octobre - 30 Octobre 2019<br />
+                VIETNAM
+              </p>
+            </li>
+            <li>
+              <p>
+                STAGE D’OBSERVATION<br />
+                Utilisation des différents logiciels de la suite Adobe (
+                Photoshop, Illustrator et Première Pro)<br />
+
+                Formation sur la prise de photo numérique et vidéo avec reflex
+                Suivi de projets vidéo<br />
+                15 Janvier 2017 - 15 Fevier 2017<br />
+                INGÉMEDIA
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="travaux-passions">
+      <div id="mes-travaux" class="mes-travaux">
+        <h2>Mes travaux</h2>
+        <div class="card">
+          <ul>
+            <li>
+              <p>
+                Mon compte Instagram :
+                <a href="https://www.instagram.com/emilourlme.img/"
+                  >Emilourlme.img</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                Flyer Carnavale Di Brandu :
+              </p>
+            </li>
+            <li class="mes-photos">
+              <img src="./flyer.jpg" alt="Flyer du carnaval de brando" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mes-passions">
+        <h2>Mes passions</h2>
+        <div class="passions">
+          <div class="card mini-card"><h4>Videos</h4></div>
+          <div class="card mini-card"><h4>Réseaux sociaux</h4></div>
+          <div class="card mini-card"><h4>Lecture</h4></div>
+          <div class="card mini-card"><h4>Culture asiatique</h4></div>
+        </div>
+      </div>
+
+      <div class="mes-photos">
+        <img src="./photo1.jpg" alt="Première photo " />
+      </div>
+
+      <div class="mes-photos">
+        <img src="./photo2.jpg" alt="Deuxieme photo avec un effet néon" />
+      </div>
+    </section>
+
+    <section id="contact" class="form-container">
+      <div class="formulaire card">
+        <form action=".">
+          <h2>Pour me contacter :</h2>
+          <br />
+          <div class="form-control">
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" name="nom" />
+          </div>
+          <div class="form-control">
+            <label for="email">Votre email :</label>
+            <input type="text" id="email" name="email" />
+          </div>
+          <div class="form-control">
+            <label for="message">Votre message :</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
